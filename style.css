@@ -4,3 +4,15 @@ h1{
 h2{
     color: blue;
 }
+.btn{
+    width: 100px;
+    color: rgb(82, 51, 12);
+    background: burlywood;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    line-height: 1.8;
+    padding: 10px;
+    border-radius: 5px;
+    
+}
