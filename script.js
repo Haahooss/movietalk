@@ -16,7 +16,7 @@ function checkGuess() {
     if (guessCount === 1) {
         guesses.textContent = '上次猜的数：';
     }
-    guesses.textContent += userGuess + '';
+    guesses.textContent += userGuess + ' ';
 
     if (userGuess === randomNumber) {
         lastResult.textContent = '恭喜你！猜对了';
@@ -39,8 +39,8 @@ function checkGuess() {
     guessCount++;
     guessField.value = '';
     guessField.focus();
-    guessSubmit.addEventListener('click', checkGuess);
 }
+guessSubmit.addEventListener('click', checkGuess);
 
 function setGameOver() {
     guessField.disabled = true;
