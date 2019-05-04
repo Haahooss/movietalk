@@ -1,18 +1,13 @@
-h1{
-    font-size: 60px;
-}
-h2{
-    color: blue;
-}
-.btn{
-    width: 100px;
-    color: rgb(82, 51, 12);
-    background: burlywood;
-    display: inline-block;
-    text-align: center;
-    text-decoration: none;
-    line-height: 1.8;
-    padding: 10px;
-    border-radius: 5px;
-    
-}
+html {
+    font-family: sans-serif
+  }
+  body {
+    width: 50%;
+    max-width: 800px;
+    min-width: 480px;
+    margin: 0 auto
+  }
+  .lastResult {
+    color: white;
+    padding: 3px
+  }
